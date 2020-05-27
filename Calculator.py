@@ -72,7 +72,7 @@ def calculate():
         display.insert(0, "Error")
 
 def fact(n):
-    if n == 1:
+    if n == 0:
         return 1
     else:
         return fact(n-1)*n
